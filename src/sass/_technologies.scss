@@ -1,0 +1,36 @@
+@use './base';
+@use './mixins';
+
+#technologies {
+	@include mixins.generalSection();
+	h2 {
+		@include mixins.subtitles;
+	}
+	.container {
+		height: 120px;
+		max-width: 900px;
+		display: flex;
+		align-items: center;
+		column-gap: 2rem;
+		overflow-x: scroll;
+		background-color: base.$main-color-light;
+		border-radius: 6px;
+		padding: 0px 20px;
+	}
+	.technology-container {
+		display: flex;
+		flex-direction: column;
+		row-gap: 1.6rem;
+		align-items: center;
+		svg {
+			width: 4rem;
+			height: 4rem;
+			color: base.$third-color-light;
+		}
+		p {
+			font-size: 1.2rem;
+			color: base.$third-color-light;
+			font-weight: 900;
+		}
+	}
+}

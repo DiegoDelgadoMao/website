@@ -1,0 +1,15 @@
+@use './base';
+
+@mixin subtitles {
+	color: base.$third-color;
+	font-size: 1.6rem;
+	font-weight: 900;
+	letter-spacing: 1.2px;
+	margin: 5rem 0px 3rem 0px;
+}
+
+@mixin generalSection($width: 1000px, $m-down: 0px) {
+	width: 80%;
+	max-width: $width;
+	margin: 0px auto $m-down auto;
+}

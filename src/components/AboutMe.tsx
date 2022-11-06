@@ -8,17 +8,21 @@ export const AboutMe = () => {
 					alt=''
 				/>
 				<p>
-					Tengo con experiencia creando herramientas por medio de la web y
-					enfocándolas en la experiencia de usuarios.
+					Manejo tecnologías web 🚀 como TypeScript y React con las que creo
+					interfaces dinámicas que consuman una API para mostrar los datos
+					obtenidos. También logro construir sitios estáticos con tecnologías
+					como HTML, CSS y Sass y optimizar 🗂️ las aplicaciones web para
+					producción y desarrollo con empaquetadores como webpack o vite.
 				</p>
 				<p>
-					Me interesa programar soluciones por medio de tecnologías web para
-					poder hacer la vida de las personas mejor.
+					📌 Busco proyectos que creen herramientas web que mejoren la vida de
+					las personas.
 				</p>
 				<p>
-					Constantemente estoy aprendiendo nuevas herramientas/tecnologías con
-					la finalidad de entender mejor el flujo completo de una aplicación web
-					y poder crear asombrosas cosas con lo que aprendo.
+					Por medio de mi disciplina he logrado aprender más 📚 del ecosistema
+					web y construir pequeñas aplicaciones que automaticen soluciones a
+					problemas del día a día ♟️, tales como un tracker de hábitos hasta un
+					gestor de dinero para tus finanzas personales.
 				</p>
 			</div>
 		</section>

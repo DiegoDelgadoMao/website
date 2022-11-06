@@ -15,12 +15,10 @@ function App(): JSX.Element {
 				<>
 					<div className='content-header'>
 						<h1>
-							Front-end developer creando aplicaciones web que resuelven
-							problemas y se centran en la experiencia de usuario.
+							Hola 👋🏼, soy Diego Mauricio Delgado Espinosa, Front-end developer.
 						</h1>
 						<img src={ilustration} alt='' />
 					</div>
-
 					<SocialNetworks />
 				</>
 			</Header>
